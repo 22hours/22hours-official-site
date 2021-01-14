@@ -1,14 +1,14 @@
 import React from "react";
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 //import {} from "./pages";
-import NavBar from "molecule/NavBar/NavBar";
+import HeaderComponent from "component/HeaderComponent/HeaderComponent";
 import MainComponent from "component/MainComponent/MainComponent";
 
 const PageRouter = (props) => {
     return (
         <Router>
             <Switch>
-                <NavBar />
+                <HeaderComponent />
             </Switch>
             <section className="article">
                 <Switch>

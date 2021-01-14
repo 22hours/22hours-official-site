@@ -1,0 +1,30 @@
+@import "meta.scss";
+
+.HeaderComponent {
+    height: 45px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    display: flex;
+    align-items: center;
+    border-bottom: 0.5px solid rgb(238, 238, 238);
+    .header {
+        display: flex;
+        justify-content: space-between;
+        margin-top: 5px;
+        .logo {
+            font-family: "Gmarket Medium";
+            font-size: $font_medium;
+            span {
+            }
+        }
+        .menu {
+            font-size: $font_small;
+            font-family: "Gmarket Medium";
+            display: flex;
+            align-items: center;
+            span {
+                margin-right: 20px;
+            }
+        }
+    }
+}
